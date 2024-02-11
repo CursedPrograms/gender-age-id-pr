@@ -1,1 +1,1 @@
-const apiUrl = 'https://api.github.com/CursedPrograms/Gender-Age-ID/languages';
+const apiUrl = 'https://api.github.com/repos/CursedPrograms/Gender-Age-ID/languages';
