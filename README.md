@@ -1,5 +1,5 @@
-<a href="https://github.com/CursedPrograms/pr-website-template/actions/workflows/proof-html.yml">
-    <img class="workflow-badge workflow-success" src="https://github.com/CursedPrograms/pr-website-template/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
+<a href="https://github.com/CursedPrograms/gender-age-id-pr/actions/workflows/proof-html.yml">
+    <img class="workflow-badge workflow-success" src="https://github.com/CursedPrograms/gender-age-id-pr/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
 </a>
 
 <div align="center">
