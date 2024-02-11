@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pr-template</title>
+    <title>Gender-Age-ID</title>
     <link rel="stylesheet" href="styles/main-style.css">
 </head>
 
@@ -22,20 +22,29 @@
                 src="https://img.shields.io/badge/flask%20-%23323330.svg?&style=for-the-badge&logo=flask&logoColor=white" />
         </div>
 
-        <h1>pr-template</h1>
+        <a href="https://github.com/CursedPrograms/GloriosaAI/edit/main/README.md" target="_blank">
+            <img src="https://github.com/CursedPrograms/Gender-Age-ID/raw/main/demo_images/cover.png"
+                alt="GloriosaAI">
+        </a>
 
-        <p>pr-template</p>
+        <h1>Gender-Age-ID</h1>
+
+        <p>Gender-Age-ID utilizes the DeepFace library along with OpenCV to extract gender information from input images and webcam feeds. The gender and age prediction results are printed.</p>
 
         <p><strong><em>GitHub:</em></strong> <a href="https://github.com/CursedPrograms/pr-website-template"
                 target="_blank"><strong><em>pr-website-template</em></strong></a></p>
 
         <h2>Scripts:</h2>
         <ul>
-            <li><strong>main.py:</strong> The selection menu for Template</li>
+            <li><strong>main.py</strong> The selection menu for Gender-Age-ID</li>
+            <li><strong>app.py</strong> Gender-Age-ID on a web-server</li>
         </ul>
 
         <h2>/scripts/</h2>
         <ul>
+            <li><strong>gender_predictor.py</strong> Install dependencies</li>
+            <li><strong>gender_age_predictor.py</strong> Install dependencies</li>
+            <li><strong>gender_age_predictor_webcam.py</strong> Install dependencies</li>
             <li><strong>install_dependencies.py:</strong> Install dependencies</li>
         </ul>
 
@@ -44,11 +53,14 @@
     pip install -r requirements.txt
     python main.py
     chmod +x setup.sh
-    </pre>
+    </pre>    
 
         <h2>Dependencies:</h2>
         <pre>
-
+    deepface==0.0.81
+    opencv-python==4.8.1.78
+    Pillow==8.3.2
+    flask==3.0.0
     </pre>
     
 
