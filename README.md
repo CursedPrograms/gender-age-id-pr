@@ -11,7 +11,7 @@
 # Gender-Age-ID
 
 <div align="center">
-<a target="_blank">
+<a href="https://github.com/CursedPrograms/Gender-Age-ID" target="_blank">
     <img src="https://github.com/CursedPrograms/Gender-Age-ID/raw/main/demo_images/cover.png"
         alt="Age-Gender Demo Image">
 </a>
