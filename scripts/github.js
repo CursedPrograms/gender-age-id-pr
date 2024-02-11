@@ -1,0 +1,1 @@
+const apiUrl = 'https://api.github.com/repos/CursedPrograms/pr-website-template/languages';
